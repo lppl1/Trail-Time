@@ -96,7 +96,15 @@
         <section class="signup-band text-center mt-5">
             <h2>Stay Updated</h2>
             <p>Get email updates about new trail guides and events</p>
-            <form class=""
+            <form class="row g-2 justify-content-center" actions="#" method="get">
+                <div class="col-12" col-sm-8 col-md-6>
+                    <label for="signupEmail" class="visually-hidden">Email Address</label>
+                    <input type="email" class="form-control form-control-lg" id="signupEmail" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="col-12 col-sm-auto">
+                    <button type="submit" class="btn btn-trail btn-lg w-100">Sign Up</button>
+                </div>
+            </form>
         </section>
     </main>
 
