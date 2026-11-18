@@ -115,3 +115,34 @@ a {
     text-align: center;
 }
 
+.feature-card{
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.feature-card:hover{
+    transform: translateY(-4px);
+}
+
+/*photos cropped to same height since all different shapes initially*/
+.feature-card .card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+
+.feature-card .card-title{
+    color: var(--forest-dark);
+}
+
+.signup-band{
+
+}
+
+.signup-band h2{
+
+}
+
+/*footer*/
