@@ -29,3 +29,10 @@ h1, h2, h3, h4, .navbar-brand{
 a {
     color: var(--forest);
 }
+
+/*nav stuff*/
+.site-nav{
+    background-color: var(--forest);
+    padding: 0.6rem, 1rem;
+}
+
