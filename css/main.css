@@ -138,11 +138,41 @@ a {
 }
 
 .signup-band{
-
+    background-color: var(--forest);
+    color: #fff;
+    border-radius: 14px;
+    padding: 2.5rem 1.5rem;
 }
 
 .signup-band h2{
-
+    color: #fff;
 }
 
 /*footer*/
+.footer{    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--forest-dark);
+    color: #f4efe6;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.85rem;
+    z-index: 1000;
+}
+
+.footer a{
+    color: #f4efe6;
+    text-decoration: none;
+    margin: 0 0.4rem;
+}
+
+.footer a:hover{
+    color: #ffd59a;
+    text-decoration: underline;
+}
+
+.footer-links{
+    margin-bottom: 0.25rem;
+}
