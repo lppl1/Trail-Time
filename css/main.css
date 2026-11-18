@@ -89,5 +89,29 @@ a {
 
 /*home page*/
 .hero{
-    
+    background-image: linear-gradient(rgba(20, 40, 25, 0.55), rgba(20, 40, 25, 0.55)), url("../images/cadillac-west-face.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 6em 1rem;
+    text-align: center;
 }
+
+.hero h1{
+    color: #fff;
+    font-size: clamp(2em, 5vw, 3.4rem);
+    margin-bottom: 1rem;
+}
+
+.hero p{
+    font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+    max-width: 640px;
+    margin: 0 auto 1.75rem;
+}
+
+.home-intro{
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
