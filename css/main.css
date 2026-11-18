@@ -2,5 +2,15 @@
 
 /*colors*/
 :root{
-    
+    --forest: #1f3f28;
+}
+
+/*base*/
+body{
+    background-color: var(--sand);
+    color: var(--ink);
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, san-serif;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    padding-bottom: 140px;
 }
