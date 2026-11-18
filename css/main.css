@@ -3,6 +3,12 @@
 /*colors*/
 :root{
     --forest: #1f3f28;
+    --forest-dark: #1f3f28;
+    --sage: #dfe9dc;
+    --sand: #f4efe6;
+    --amber: #c9822b;
+    --amber-dark: #a8681f;
+    --ink: #2b2b2b;
 }
 
 /*base*/
@@ -13,4 +19,13 @@ body{
     font-size: 1.05rem;
     line-height: 1.65;
     padding-bottom: 140px;
+}
+
+h1, h2, h3, h4, .navbar-brand{
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--forest-dark);
+}
+
+a {
+    color: var(--forest);
 }
