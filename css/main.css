@@ -2,7 +2,7 @@
 
 /*colors*/
 :root{
-    --forest: #1f3f28;
+    --forest: #2f5d3a;
     --forest-dark: #1f3f28;
     --sage: #dfe9dc;
     --sand: #f4efe6;
@@ -15,7 +15,7 @@
 body{
     background-color: var(--sand);
     color: var(--ink);
-    font-family: "Segoe UI", Roboto, Helvetica, Arial, san-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 1.05rem;
     line-height: 1.65;
     padding-bottom: 140px;
@@ -33,7 +33,7 @@ a {
 /*nav stuff*/
 .site-nav{
     background-color: var(--forest);
-    padding: 0.6rem, 1rem;
+    padding: 0.6rem 1rem;
 }
 
 .site-nav .navbar-brand{
