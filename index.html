@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Trail & Time | Home</title>
         <!--local bootstrap copy from starter files-->
-        <link href="css/bootstrap.css" rel="stylesheeet">
+        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
     </head>
 
@@ -21,15 +21,15 @@
                         <span class="brand-tagline">Explore the trails. Discover the stories.</span>
                     </span>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <button class="navbar-toggle" type="button" data-bs-toggler="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mainNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="hiking_safety.html">Hiking & Safety Tips</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hiking_safety.html">Hiking & Safety Tips</a></li>
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="trailDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Trail Directory</a>
-                            <ul class="dropdown-menu" aria-labelledby="trailDropdown"></ul>
+                            <ul class="dropdown-menu" aria-labelledby="trailDropdown">
                                 <li><a class="dropdown-item" href="trail_directory.html">All Trails</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="trail_history.html">Trail History</a></li>
@@ -58,7 +58,7 @@
             <p>Whether you are an experienced hiker or planning your first hike, our trail guides help you better understand your surroundings.</p>
         </section>
         <!--featured cards with photos for each section-->
-        <section aria-lavel="Explore our website">
+        <section aria-label="Explore our website">
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card feature-card h-100">
@@ -66,7 +66,7 @@
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title h3">Hiking & Safety Tips</h3>
                             <p class="card-text">Gear lists, safety advice and current trail conditions.</p>
-                            <a href="hiking_safety.html" class="btn btn-trail mt-auto align self-start">Read More</a>
+                            <a href="hiking_safety.html" class="btn btn-trail mt-auto align-self-start">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -82,9 +82,9 @@
                 </div>
                 <div class="col-12 col-md-12 col-lg-4">
                     <div class="card feature-card h-100">
-                        <img src="images/czarny-staw-trail.jpg" class="card-img-top img-fluid" alt="Morskie Oko mountain lake seen from rocky trail leading up to Czarny Staff in the Tatra Mountains">
+                        <img src="images/czarny-staw-trail.jpg" class="card-img-top img-fluid" alt="Morskie Oko mountain lake seen from rocky trail leading up to Czarny Staw in the Tatra Mountains">
                         <div class="card-body d-flex flex-column">
-                            <h3 class="card-text h4">Share Your Hike</h3>
+                            <h3 class="card-text h3">Share Your Hike</h3>
                             <p class="card-text">Send us your trail stories and photos.</p>
                             <a href="contact.html" class="btn btn-trail mt-auto align-self-start">Share</a>
                         </div>
@@ -96,8 +96,8 @@
         <section class="signup-band text-center mt-5">
             <h2>Stay Updated</h2>
             <p>Get email updates about new trail guides and events</p>
-            <form class="row g-2 justify-content-center" actions="#" method="get">
-                <div class="col-12" col-sm-8 col-md-6>
+            <form class="row g-2 justify-content-center" action="#" method="get">
+                <div class="col-12 col-sm-8 col-md-6">
                     <label for="signupEmail" class="visually-hidden">Email Address</label>
                     <input type="email" class="form-control form-control-lg" id="signupEmail" name="email" placeholder="Enter your email address" required>
                 </div>
@@ -115,7 +115,7 @@
                 <a href="index.html">Home</a> |
                 <a href="hiking_safety.html">Hiking & Safety Tips</a> |
                 <a href="trail_directory.html">Trail Directory</a> |
-                <a href="contact.html">Contact</a> |
+                <a href="contact.html">Contact</a>
             </div>
             <div>
                 &copy; 2026 Luke Puchnowski | 
