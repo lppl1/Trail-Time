@@ -62,3 +62,32 @@ a {
 }
 
 .site-nav .nav-link:hover,
+.site-nav .nav-link:focus,
+.site-nav .nav-link.active {
+    color: #ffd59a;
+}
+
+.site-nav .dropdown-item.active,
+.site-nav .dropdown-item:active{
+    background-color: var(--forest);
+}
+
+/*buttons*/
+.btn-trail{
+    background-color: var(--amber);
+    border-color: var(--amber);
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-trail:hover,
+.btn-trail:focus{
+    background-color: var(--amber-dark);
+    border-color: var(--amber-dark);
+    color: #fff;
+}
+
+/*home page*/
+.hero{
+    
+}
