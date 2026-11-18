@@ -36,3 +36,29 @@ a {
     padding: 0.6rem, 1rem;
 }
 
+.site-nav .navbar-brand{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    line-height: 1.1;
+}
+
+.site-nav .navbar-brand img{
+    width: 44px;
+    height: 44px;
+}
+
+.brand-tagline{
+    display: block;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #d6e4d6;
+}
+
+.site-nav .nav-link{
+    color: #f4efe6;
+    font-weight: 500;
+}
+
+.site-nav .nav-link:hover,
