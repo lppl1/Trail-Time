@@ -194,5 +194,35 @@ a {
 }
 
 .breadcrumb{
-    
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a{
+    color: var(--forest);
+}
+
+main h2{
+    margin-bottom: 1rem;
+}
+
+/*gear checklist for each item with checkmark I think*/
+.gear-item{
+    display: block;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0.6rem 0.9rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.gear-item::before{
+    content: "\2713";
+    color: var(--amber);
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+/**/
+.photo-fire{
+
 }
