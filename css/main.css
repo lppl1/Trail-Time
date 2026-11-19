@@ -222,7 +222,28 @@ main h2{
     margin-right: 0.5rem;
 }
 
-/**/
+/*photos with captions*/
 .photo-fire{
-
+    margin: 0;
 }
+
+.photo-figure img{
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+}
+
+.photo-figure figcaption{
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.4rem;
+}
+
+/*smaller cards interior pages*/
+.condition-card{
+    border: none;
+    border-left: 5px solid var(--amber);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
